@@ -1,7 +1,10 @@
 class Asiento:
-    color =''
-    precio = 0
-    registro = 0
+    pass
+
+    def __init__(self,color, precio , registro):
+        self.color = color
+        self.precio = precio
+        self.registro = registro
 
     def cambiarColor(self, color):
         if color=='rojo' or color=='verde' or color=='amarillo' or color=='negro' or color=='blanco':
@@ -38,9 +41,11 @@ class Auto:
 
 
 class Motor:
-    numeroCilindros = 0
-    registro = 0
-    tipo = ''
+    pass
+    def __init__(self, numeroCilindros, registro, tipo):
+        self.numeroCilindros = numeroCilindros
+        self.registro = registro
+        self.tipo = tipo
 
     def cambiarRegistro(self,registro):
         self.registro=registro
