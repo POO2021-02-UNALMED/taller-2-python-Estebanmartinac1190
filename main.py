@@ -37,6 +37,7 @@ class Auto:
         return loco
 
 class Motor:
+    pass
     def __init__(self, numeroCilindros, tipo, registro):
         self.tipo = tipo
         self.numeroCilindros = numeroCilindros
